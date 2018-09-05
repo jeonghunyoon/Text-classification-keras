@@ -2,11 +2,11 @@ import pandas as pd
 import re
 
 
-def clean_str(str):
+def clean_str(sentence):
     """
     Remove non alphabet characters and split the string into array.
     """
-    return [re.sub("[^a-zA-Z]", "", elem) for elem in str.split(' ')]
+    return [elem for elem in [re.sub("[^a-zA-Z]", "", elem) for elem in sentence.split(' ')] if len(elem) > 0]
 
 
 def get_data(path):
