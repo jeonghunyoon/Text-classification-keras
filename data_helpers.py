@@ -18,7 +18,7 @@ def get_data(path):
     Read the data as dataframe. Make the messages string arrays.
     Return labels and messages.
     """
-    data = pd.read_csv(path)
+    data = pd.read_csv(path, encoding='latin-1')
 
     labels = data['v1'].tolist()
     messages = data['v2'].apply(lambda x: clean_str(x)).tolist()
