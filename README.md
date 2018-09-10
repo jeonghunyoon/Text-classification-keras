@@ -1,4 +1,4 @@
-# spam-classification-cnn-tf
+# spam-classification-cnn-tf (Kears)
 
 ## Data
 
