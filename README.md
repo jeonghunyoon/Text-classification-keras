@@ -1,4 +1,4 @@
-# spam-classification-cnn-tf (Kears)
+# Text-classification-kears
 
 ## Data
 
@@ -17,3 +17,7 @@ Run as following.
 ```
 python classifier.py
 ```
+
+## Author
+
+Jeonghun Yoon
